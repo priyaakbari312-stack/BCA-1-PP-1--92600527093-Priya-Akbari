@@ -1,0 +1,7 @@
+//wap to find out area of rectangle
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
