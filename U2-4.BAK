@@ -1,0 +1,17 @@
+//wap that input value from user and find out area of circle
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float principle, rate, years, simple interest;
+   clrscr();
+
+   cout << "Enter Principle Amount: ";
+   cin >> principle;
+   cout << "Enter Rate of Interest: ";
+   cin >> rate;
+   cout << "Enter Number of Years: ";
+   cin >> years;
+
+   simple_interest = (principle * rate * years) / 100
