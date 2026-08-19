@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float price,quantity,total,discount,final;
+   clrscr();
+
+   printf("Enter Price:");
+   scanf("%f",&price);
+
+   printf("Enter Quantity:");
+   scanf("%f",&quantity);
+
+
+
