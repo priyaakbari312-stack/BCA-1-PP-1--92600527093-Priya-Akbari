@@ -1,0 +1,4 @@
+//wap that print 1,3,5,7...,n
+#include<stdio.h>
+#include<conio.h>
+

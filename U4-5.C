@@ -1,14 +1,21 @@
+//wap that print 200,198,196...180
 #include<stdio.h>
 #include<conio.h>
-
-void main()
+void main()x
 {
-    int i;
+    int i,j;
     clrscr();
+    for(i=200;i>=180;i--)
+    {
+       printf("\n %d",i);
+    }
 
-    for(i=200; i>=180; i-=2)
-	{
-		printf(" %d ",i);
-	}
-	getch();
+    j=200;
+      while(j>=180)
+    {
+       printf("\n %d",j);
+       j=j--;
+    }
+
+    getch();
 }

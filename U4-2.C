@@ -1,3 +1,4 @@
+//wap to print 2,4,6,...,20 numbers
 #include<stdio.h>
 #include<conio.h>
 
@@ -5,10 +6,9 @@ void main()
 {
     int i;
     clrscr();
-
-    for(i=2;i<=20;i+=2)
+    for(i=2;i<=20;i=i+2)
     {
-	  printf("%d",i);
+       printf("\n %d",i);
     }
     getch();
 }
